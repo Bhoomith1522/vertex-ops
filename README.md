@@ -1,10 +1,10 @@
-# NexusOps AI
+# Vertex-Ops
 
 AI-Powered Cloud-Native DevOps & Infrastructure Intelligence Platform
 
 ## Overview
 
-NexusOps AI is a production-style cloud-native platform designed to monitor infrastructure, analyze incidents, identify root causes, and trigger automated self-healing workflows using AWS, Kubernetes, Docker, Terraform, and AI-powered analysis engines.
+Vertex-Ops AI is a production-style cloud-native platform designed to monitor infrastructure, analyze incidents, identify root causes, and trigger automated self-healing workflows using AWS, Kubernetes, Docker, Terraform, and AI-powered analysis engines.
 
 ## Status
 
