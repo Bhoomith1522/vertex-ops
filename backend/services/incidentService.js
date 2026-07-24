@@ -1,8 +1,25 @@
-const incidents = [];
 const Incident = require("../models/Incident");
 
-const getAllIncidents = async () => {
-    return await Incident.find();
+const getAllIncidents = async (search, severity, status) => {
+
+    const query = {};
+
+    if (search) {
+        query.title = {
+            $regex: search,
+            $options: "i"
+        };
+    }
+
+    if (severity) {
+        query.severity = severity;
+    }
+
+    if (status) {
+        query.status = status;
+    }
+
+    return await Incident.find(query);
 };
 
 const createIncident = async (incidentData) => {

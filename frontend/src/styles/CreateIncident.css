@@ -1,0 +1,66 @@
+.create-box{
+
+    background:#1e293b;
+
+    color:white;
+
+    padding:24px;
+
+    border-radius:16px;
+
+    margin-top:30px;
+
+    border:1px solid #334155;
+
+}
+
+.create-box h2{
+
+    margin-bottom:20px;
+
+    color:white;
+
+}
+
+.create-box input,
+.create-box select{
+
+    width:100%;
+
+    padding:12px;
+
+    margin-bottom:15px;
+
+    border-radius:8px;
+
+    border:1px solid #475569;
+
+    background:#0f172a;
+
+    color:white;
+
+}
+
+.create-box input::placeholder{
+
+    color:#94a3b8;
+
+}
+
+.create-box button{
+
+    width:100%;
+
+    padding:12px;
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}

@@ -7,7 +7,12 @@ const {
 } = require("../services/incidentService");
 
 const getIncidents = async (req, res) => {
-    const incidents = await getAllIncidents();
+
+    const incidents = await getAllIncidents(
+    req.query.search,
+    req.query.severity,
+    req.query.status
+);
 
     res.json(incidents);
 };

@@ -1,0 +1,140 @@
+.table-container{
+
+    margin-top:40px;
+
+}
+
+.table-container h2{
+
+    margin-bottom:20px;
+
+    color:white;
+
+}
+
+.filters{
+
+    display:flex;
+
+    gap:15px;
+
+    margin-bottom:20px;
+
+}
+
+.filters input,
+.filters select{
+
+    padding:10px;
+
+    border-radius:8px;
+
+    border:1px solid #475569;
+
+    background:#1e293b;
+
+    color:white;
+
+}
+
+.filters input::placeholder{
+
+    color:#94a3b8;
+
+}
+
+.filters button{
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 20px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    background:#1e293b;
+
+    color:white;
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+}
+
+th{
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:16px;
+
+}
+
+td{
+
+    padding:16px;
+
+    text-align:center;
+
+    border-bottom:1px solid #334155;
+
+    color:white;
+
+}
+
+tr:hover{
+
+    background:#334155;
+
+}
+
+td select{
+
+    background:#0f172a;
+
+    color:white;
+
+    border:1px solid #475569;
+
+    padding:6px;
+
+    border-radius:6px;
+
+}
+
+td button{
+
+    background:#16a34a;
+
+    color:white;
+
+    border:none;
+
+    padding:8px 16px;
+
+    border-radius:6px;
+
+    cursor:pointer;
+
+}
+
+td button:hover{
+
+    background:#15803d;
+
+}
